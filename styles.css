@@ -1,0 +1,111 @@
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 368px;
+    color: #5D5D7D;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    margin-top: 381px;
+}
+
+p {
+    font-weight: 400;
+    line-height: 48px;
+    font-size: 28px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    width: 540px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: #9499EA;
+    width: 269px;
+    height: 62px;
+    flex-shrink: 0;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 30px;
+    border: none;
+    line-height: 36px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: .8;
+}
+button:active{
+    opacity: .5;
+}
+
+.div-center {
+    height: 100vh;
+    width: 100vw;
+}
+
+.esquerda {
+
+    width: 55%;
+    display: inline-block;
+    margin-left: 136px;
+
+}
+
+
+.direita {
+    height: 100vh;
+    width: 35%;
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(93, 93, 125, 0.16);
+
+
+
+
+}
+
+
+
+
+
+
+
+a {
+    margin-left: 57px;
+
+    line-height: 41px;
+    font-size: 28px;
+    color: #5D5D7D;
+    cursor: pointer;
+
+
+}
+header{
+    margin: 24 0 0 57px;
+}
+
+header a:nth-child(2) {
+    opacity: 0.4;
+}
+header :active {
+opacity: 0.4;
+
+}
+header:hover{
+opacity: 0.8;
+}
+
+img {
+    position: relative;
+    top: 20%;
+    right: 20%;
+
+}
